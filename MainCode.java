@@ -41,7 +41,7 @@ package filemanagement;
 						        while(true)
 						        {
 						        	cd.display();
-						        	System.out.println(" 1.Add file \n 2.Search files \n 3.Delete files \n 4.Exit");
+						        	System.out.println(" 1.Add file \n 2.Search files \n 3.Delete files \n");
 						        	int choice1=scan.nextInt();
 						        	switch(choice1)
 						        	{
