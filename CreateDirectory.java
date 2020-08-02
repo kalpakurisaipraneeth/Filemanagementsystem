@@ -86,7 +86,7 @@ public String sai;
     			 Scanner scan = new Scanner(System.in);
     				System.out.println("Enter the name of the file you want to delete.");
     				String del = scan.nextLine();
-    			File obj = new File("C:\\LOCKME"+path,del);
+    			File obj = new File("C:\\LOCKME\\"+path,del);
     			if(obj.delete())
     			{
     				System.out.println("the file is deleted successfully.");
